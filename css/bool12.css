@@ -6,6 +6,8 @@
 	--space-xl: 4rem;
 }
 
+
+
 /* UTILS */
 
 .container {
@@ -42,6 +44,15 @@
 	display: block;
 }
 
+/* JC-CONTENT */
+.jc-content-center{
+	justify-content: center;
+}
+
+/* ALIGN */
+.align-items-center{
+	align-items: center;
+}
 
 /* COL */
 

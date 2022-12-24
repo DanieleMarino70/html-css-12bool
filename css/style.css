@@ -1,0 +1,35 @@
+/* GENERALS */
+section{
+    padding-bottom: 30px;
+}
+
+[class*="col"]{
+    min-height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    background-color: #006cfa;
+    border: 1px solid white;
+    color: white;
+}
+
+
+
+.row.special div:first-child{
+    flex-basis: calc((100% / 12) * 2);
+    max-width: calc((100% / 12) * 2);
+}
+
+
+[class*="col"] [class*="col"]{
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    border: 1px solid #006cfa;
+    background-color: #00e165;
+    color: white;
+}
+
+.border{
+    border: 1rem solid #006cfa;
+}
+
