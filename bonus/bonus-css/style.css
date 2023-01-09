@@ -1,0 +1,8 @@
+/* GENERALS */
+section{
+    padding-bottom: 30px;
+}
+
+[class*="col"]{
+    aspect-ratio: 1;
+}
